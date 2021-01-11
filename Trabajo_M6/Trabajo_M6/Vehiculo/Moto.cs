@@ -4,13 +4,13 @@ using System.Text;
 
 namespace Trabajo_M6
 {
-   public class Coche : Vehiculo
+    public class Moto : Vehiculo
     {
-        protected const int n_ruedas = 4 ;
+        protected const int n_ruedas = 2;
 
         private Rueda[] array_ruedas = new Rueda[n_ruedas];
 
-        public Coche()
+        public Moto()
         {
             marca = "";
             color = "";
@@ -18,22 +18,20 @@ namespace Trabajo_M6
         }
 
 
-        public Coche(string marca, string color)
+        public Moto(string marca, string color)
         {
             this.marca = marca;
             this.color = color;
             this.matricula = generarMatricula();
         }
 
-        public Coche (string marca, string color, string matricula)
+        public Moto(string marca, string color, string matricula)
         {
             this.marca = marca;
             this.color = color;
             this.matricula = comprobarMatricula(matricula);
-            
+
         }
-
-
 
         public void CrearRuedas()
         {
@@ -42,9 +40,9 @@ namespace Trabajo_M6
 
             for (int i = 0; i < array_ruedas.Length; i++)
             {
-                if (i <= 1)
+                if (i == 0)
                 {
-                    Console.WriteLine("Inserte la marca de la rueda delantera: '{0}'",i + 1);
+                    Console.WriteLine("Inserte la marca de la rueda delantera: '{0}'", i + 1);
                     marca_rueda = Console.ReadLine();
 
                     Console.WriteLine("Inserte el diametro de la rueda delantera: '{0}'", i + 1);
@@ -69,7 +67,7 @@ namespace Trabajo_M6
                     diametro_rueda = 4f;
                 }
 
-                
+
                 array_ruedas[i] = new Rueda(diametro_rueda, marca_rueda);
             }
         }
@@ -78,16 +76,15 @@ namespace Trabajo_M6
         {
             for (int i = 0; i < array_ruedas.Length; i++)
             {
-                Console.WriteLine("Rueda: "+(i+1)+" Marca: "+array_ruedas[i].Marca+" Diametro: "+array_ruedas[i].Diametro);
+                Console.WriteLine("Rueda: " + (i + 1) + " Marca: " + array_ruedas[i].Marca + " Diametro: " + array_ruedas[i].Diametro);
 
             }
         }
 
         public override string ToString()
         {
-            return "Marca: "+marca+" Color: "+color+" Matricula: "+matricula;
+            return "Marca: " + marca + " Color: " + color + " Matricula: " + matricula;
         }
-
 
     }
 }

@@ -37,5 +37,30 @@ namespace Trabajo_M6
             return matricula;
         }
 
+        public string comprobarMatricula(string mat)
+        {           
+            char caracter = ' ';         
+            for (int i = 0; i < mat.Length; i++)
+            {
+                caracter =  Convert.ToChar(mat.Substring(i,1));
+                if (i <= 3)
+                {
+                    if (!char.IsNumber(caracter))
+                    {
+                        return generarMatricula();
+                    }
+                }
+                else
+                {
+                    if (char.IsNumber(caracter))
+                    {
+                        return generarMatricula();
+                    }
+                }
+            }
+
+            return mat;
+        }
+
     }
 }

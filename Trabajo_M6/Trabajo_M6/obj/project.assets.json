@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Cantore\\.nuget\\packages\\": {}
+    "C:\\Users\\gerardo.aguilar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Tic Curso Net\\M6\\Trabajo_M6\\Trabajo_M6\\Trabajo_M6.csproj",
+      "projectUniqueName": "C:\\Users\\gerardo.aguilar\\source\\repos\\SeClaMa\\M6_Team6\\Trabajo_M6\\Trabajo_M6\\Trabajo_M6.csproj",
       "projectName": "Trabajo_M6",
-      "projectPath": "D:\\Tic Curso Net\\M6\\Trabajo_M6\\Trabajo_M6\\Trabajo_M6.csproj",
-      "packagesPath": "C:\\Users\\Cantore\\.nuget\\packages\\",
-      "outputPath": "D:\\Tic Curso Net\\M6\\Trabajo_M6\\Trabajo_M6\\obj\\",
+      "projectPath": "C:\\Users\\gerardo.aguilar\\source\\repos\\SeClaMa\\M6_Team6\\Trabajo_M6\\Trabajo_M6\\Trabajo_M6.csproj",
+      "packagesPath": "C:\\Users\\gerardo.aguilar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gerardo.aguilar\\source\\repos\\SeClaMa\\M6_Team6\\Trabajo_M6\\Trabajo_M6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Cantore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gerardo.aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

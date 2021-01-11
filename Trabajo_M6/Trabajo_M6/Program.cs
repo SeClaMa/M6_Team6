@@ -6,7 +6,7 @@ namespace Trabajo_M6
     {
         static void Main(string[] args)
         {
-            Coche coche1 = new Coche("Toyota","Rojo","56MD34");
+            Coche coche1 = new Coche("Toyota","Rojo");
 
             coche1.CrearRuedas();
 

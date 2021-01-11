@@ -18,11 +18,11 @@ namespace Trabajo_M6
         }
 
 
-        public Coche(string marca, string color, string matricula)
+        public Coche(string marca, string color)
         {
             this.marca = marca;
             this.color = color;
-            this.matricula = matricula;
+            this.matricula = generarMatricula();
         }
 
         public void CrearRuedas()
@@ -50,6 +50,16 @@ namespace Trabajo_M6
                     diametro_rueda = Convert.ToSingle(Console.ReadLine());
                 }
 
+                if (diametro_rueda <= 0.4)
+                {
+                    diametro_rueda = 0.5f;
+                }
+                else if (diametro_rueda >= 4)
+                {
+                    diametro_rueda = 4f;
+                }
+
+                
                 array_ruedas[i] = new Rueda(diametro_rueda, marca_rueda);
             }
         }

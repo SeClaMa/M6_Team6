@@ -1,0 +1,13 @@
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\bin\Debug\netcoreapp3.1\Trabajo_M6.exe
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\bin\Debug\netcoreapp3.1\Trabajo_M6.deps.json
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\bin\Debug\netcoreapp3.1\Trabajo_M6.runtimeconfig.json
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\bin\Debug\netcoreapp3.1\Trabajo_M6.runtimeconfig.dev.json
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\bin\Debug\netcoreapp3.1\Trabajo_M6.dll
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\bin\Debug\netcoreapp3.1\Trabajo_M6.pdb
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.csprojAssemblyReference.cache
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.AssemblyInfoInputs.cache
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.AssemblyInfo.cs
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.csproj.CoreCompileInputs.cache
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.dll
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.pdb
+C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.genruntimeconfig.cache

@@ -17,6 +17,25 @@ namespace Trabajo_M6
         public string Matricula { get => matricula; set => matricula = value; }
         #endregion
 
+        public string generarMatricula()
+        {
+            Random aleatorio = new Random();
+            char letra = ' ';
+            matricula = "";
+
+            for (int i = 0; i < 4; i++) 
+            {
+               matricula=matricula.Insert(i,Convert.ToString(aleatorio.Next(0, 10)));
+            }
+
+            for(int i = 4; i < 7; i++)
+            {
+                letra = (char)aleatorio.Next('A', 'Z');
+                matricula = matricula.Insert(i,Convert.ToString(letra));
+            }
+
+            return matricula;
+        }
 
     }
 }

@@ -10,6 +10,7 @@ namespace Trabajo_M6
 
         private Rueda[] array_ruedas = new Rueda[n_ruedas];
 
+        #region Constructores
         public Moto()
         {
             marca = "";
@@ -32,6 +33,7 @@ namespace Trabajo_M6
             this.matricula = comprobarMatricula(matricula);
 
         }
+        #endregion
 
         public void CrearRuedas()
         {

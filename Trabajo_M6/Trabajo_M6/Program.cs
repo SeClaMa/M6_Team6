@@ -6,7 +6,12 @@ namespace Trabajo_M6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Coche coche1 = new Coche("Toyota","Rojo","56MD34");
+
+            coche1.CrearRuedas();
+
+            Console.WriteLine(coche1.ToString());
+            coche1.mostrarRuedas();
         }
     }
 }

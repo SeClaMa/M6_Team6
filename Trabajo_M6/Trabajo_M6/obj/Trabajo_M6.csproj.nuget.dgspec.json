@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gerardo.aguilar\\source\\repos\\SeClaMa\\M6_Team6\\Trabajo_M6\\Trabajo_M6\\Trabajo_M6.csproj": {}
+    "D:\\Cursillos\\Ejercicios\\Proyectos\\Trabajo_M6\\Trabajo_M6\\Trabajo_M6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gerardo.aguilar\\source\\repos\\SeClaMa\\M6_Team6\\Trabajo_M6\\Trabajo_M6\\Trabajo_M6.csproj": {
+    "D:\\Cursillos\\Ejercicios\\Proyectos\\Trabajo_M6\\Trabajo_M6\\Trabajo_M6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gerardo.aguilar\\source\\repos\\SeClaMa\\M6_Team6\\Trabajo_M6\\Trabajo_M6\\Trabajo_M6.csproj",
+        "projectUniqueName": "D:\\Cursillos\\Ejercicios\\Proyectos\\Trabajo_M6\\Trabajo_M6\\Trabajo_M6.csproj",
         "projectName": "Trabajo_M6",
-        "projectPath": "C:\\Users\\gerardo.aguilar\\source\\repos\\SeClaMa\\M6_Team6\\Trabajo_M6\\Trabajo_M6\\Trabajo_M6.csproj",
-        "packagesPath": "C:\\Users\\gerardo.aguilar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gerardo.aguilar\\source\\repos\\SeClaMa\\M6_Team6\\Trabajo_M6\\Trabajo_M6\\obj\\",
+        "projectPath": "D:\\Cursillos\\Ejercicios\\Proyectos\\Trabajo_M6\\Trabajo_M6\\Trabajo_M6.csproj",
+        "packagesPath": "C:\\Users\\OMEN\\.nuget\\packages\\",
+        "outputPath": "D:\\Cursillos\\Ejercicios\\Proyectos\\Trabajo_M6\\Trabajo_M6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gerardo.aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OMEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

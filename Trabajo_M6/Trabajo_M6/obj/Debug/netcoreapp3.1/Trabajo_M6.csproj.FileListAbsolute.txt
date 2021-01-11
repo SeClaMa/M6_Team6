@@ -11,3 +11,16 @@ C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\obj
 C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.dll
 C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.pdb
 C:\Users\gerardo.aguilar\source\repos\SeClaMa\M6_Team6\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.genruntimeconfig.cache
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\bin\Debug\netcoreapp3.1\Trabajo_M6.exe
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\bin\Debug\netcoreapp3.1\Trabajo_M6.deps.json
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\bin\Debug\netcoreapp3.1\Trabajo_M6.runtimeconfig.json
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\bin\Debug\netcoreapp3.1\Trabajo_M6.runtimeconfig.dev.json
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\bin\Debug\netcoreapp3.1\Trabajo_M6.dll
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\bin\Debug\netcoreapp3.1\Trabajo_M6.pdb
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.csprojAssemblyReference.cache
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.AssemblyInfoInputs.cache
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.AssemblyInfo.cs
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.csproj.CoreCompileInputs.cache
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.dll
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.pdb
+D:\Cursillos\Ejercicios\Proyectos\Trabajo_M6\Trabajo_M6\obj\Debug\netcoreapp3.1\Trabajo_M6.genruntimeconfig.cache

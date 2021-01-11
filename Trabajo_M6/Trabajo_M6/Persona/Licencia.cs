@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Trabajo_M6
 {
-    class Licencia
+    public class Licencia
     {
         private string id;
-        private string tipo;
+        private char tipo;
         private string nombre_completo;
         private DateTime fecha_caducidad;
 
@@ -15,31 +15,40 @@ namespace Trabajo_M6
         public Licencia()
         {
             this.id = "";
-            this.tipo = "";
+            this.tipo = ' ';
             this.nombre_completo = "";
-            this.fecha_caducidad = GenerarFechaCaducidad();
+            this.fecha_caducidad = new DateTime(GenerarAño(), 1, 1);
         }
 
-        public Licencia(string id, string tipo, string nombre_completo, DateTime fecha_caducidad)
+        public Licencia(string id, char tipo, string nombre_completo)
         {
             this.id = id;
-            this.tipo = tipo;
+            this.tipo = comprobarLicencia(tipo);
             this.nombre_completo = nombre_completo;
-            this.fecha_caducidad = fecha_caducidad;
+            this.fecha_caducidad = new DateTime(GenerarAño(),1,1);
         }
-
+        #endregion
         #region getters
         public string Id { get => id; set => id = value; }
-        public string Tipo { get => tipo; set => tipo = value; }
+        public char Tipo { get => tipo; set => tipo = value; }
         public string Nombre_completo { get => nombre_completo; set => nombre_completo = value; }
         public DateTime Fecha_caducidad { get => fecha_caducidad; set => fecha_caducidad = value; }
         #endregion
 
-        #endregion
-        public DateTime GenerarFechaCaducidad()
+        public int GenerarAño()
         {
-            DateTime fecha_por_defecto = new DateTime(2050, 1, 1);
-            return fecha_por_defecto;
+            return DateTime.Now.Year + 4;
+        }
+
+        public char comprobarLicencia(char tipo_licencia)
+        {
+            tipo_licencia = Char.ToUpper(tipo_licencia);
+            if(tipo_licencia != 'A' && tipo_licencia != 'B' && tipo_licencia != 'C')
+            {
+                Console.WriteLine("No es un tipo de licencia correcta, te pondremos la licencia por defecto (tipo B)");
+                return 'B';
+            }
+            return tipo_licencia;
         }
 
     }

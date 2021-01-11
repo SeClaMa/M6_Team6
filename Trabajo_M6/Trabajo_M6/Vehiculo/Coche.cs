@@ -79,14 +79,14 @@ namespace Trabajo_M6
         {
             for (int i = 0; i < array_ruedas.Length; i++)
             {
-                Console.WriteLine("Rueda: "+(i+1)+" Marca: "+array_ruedas[i].Marca+" Diametro: "+array_ruedas[i].Diametro);
+                Console.WriteLine("Rueda: "+ (i+1) +" Marca: "+ array_ruedas[i].Marca +" Diametro: "+ array_ruedas[i].Diametro);
 
             }
         }
 
         public override string ToString()
         {
-            return "Marca: "+marca+" Color: "+color+" Matricula: "+matricula;
+            return "Marca: "+ marca +" Color: "+ color +" Matricula: "+ matricula;
         }
 
 

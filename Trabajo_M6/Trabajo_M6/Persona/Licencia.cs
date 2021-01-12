@@ -50,6 +50,5 @@ namespace Trabajo_M6
             }
             return tipo_licencia;
         }
-
     }
 }

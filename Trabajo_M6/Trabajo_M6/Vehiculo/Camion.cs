@@ -26,12 +26,12 @@ namespace Trabajo_M6
             this.matricula = generarMatricula();
         }
 
-        public Camion(string marca, string color, string matricula)
+        public Camion(string marca, string color, string matricula, Titular titu)
         {
             this.marca = marca;
             this.color = color;
             this.matricula = comprobarMatricula(matricula);
-
+            this.titu = titu;
         }
         #endregion
 
@@ -86,8 +86,42 @@ namespace Trabajo_M6
 
         public override string ToString()
         {
-            return "Marca: " + marca + " Color: " + color + " Matricula: " + matricula;
+            return "Marca: " + marca + " Color: " + color + " Matricula: " + matricula + " Titular: " + titu;
         }
+        public void AgregarConductores(List<Persona> list_menu)
+        {
+            string opcion = "";
+            bool acabar = false;
+            int posicion = 0;
+            Console.WriteLine("¿Desea añadir algun conductor? 1-Si 2-No");
+            opcion = Console.ReadLine();
+            if (opcion == "1")
+            {
+                int i = 0;
+                foreach (Persona cond in list_menu)
+                {
+                    Console.WriteLine("{0} -: {1}", i, cond.ToString());
+                    i++;
+                }
+                while (!acabar)
+                {
+                    Console.WriteLine("¿Que conductor quieres agregar?");
+                    posicion = Convert.ToInt32(Console.ReadLine());
+                    if (list_menu[posicion].Licencia_perso.Tipo == 'C')
+                    {
+                        lista_conductors.Add(list_menu[posicion]);
 
+                    }
+                    else
+                    {
+                        Console.WriteLine("Este conductor no puede conducir este vehiculo");
+                    }
+                    Console.WriteLine("¿Quieres añadir otro conductor? 1-Si 2-No");
+                    opcion = Console.ReadLine();
+                    if (opcion == "1") acabar = false;
+                    else acabar = true;
+                }
+            }
+        }
     }
 }

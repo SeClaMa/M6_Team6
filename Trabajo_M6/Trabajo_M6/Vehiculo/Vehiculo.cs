@@ -9,7 +9,8 @@ namespace Trabajo_M6
         protected string marca;
         protected string color;
         protected string matricula;
-
+        protected Titular titu;
+        protected List<Persona> lista_conductors= new List<Persona>();
 
         #region Get Set
         public string Marca { get => marca; set => marca = value; }
@@ -62,5 +63,5 @@ namespace Trabajo_M6
             return mat;
         }
 
-    }
+        }
 }
